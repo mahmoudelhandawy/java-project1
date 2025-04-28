@@ -98,7 +98,6 @@ body {
   table td button.delete {
     background-color: #c0392b;
   }
-
   .alert {
     background-color: #fff;
     border: 2px solid #ccc;
@@ -112,7 +111,6 @@ body {
     box-shadow: 0 0 10px rgba(0,0,0,0.2);
     z-index: 9999;
   }
-  
   .alert-header {
     display: flex;
     justify-content: space-between;
@@ -121,23 +119,19 @@ body {
     font-weight: bold;
     color: #333;
   }
-  
   .close-btn {
     font-size: 22px;
     cursor: pointer;
   }
-  
   .alert-rules {
     list-style: none;
     padding: 0;
   }
-  
   .alert-rules li {
     margin-bottom: 10px;
     color: #555;
     font-size: 16px;
   }
-  
   .hidden {
     display: none;
   }
