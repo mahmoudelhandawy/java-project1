@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bookmarker</title>
+    <link rel="stylesheet" href="./java.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Bookmarker</h1>
+        <hr>
+        <h2><i>Bookmark your favorite sites</i></h2>
+    
+        <div class="form">
+          <label><i>Site Name</i> </label>
+          <input type="text" id="siteName" placeholder="Bookmark Name">
+    
+          <label><i>Site URL</i></label>
+          <input type="text" id="siteURL" placeholder="Website URL">
+    
+          <button onclick="addBookmark()">Submit</button>
+        </div>
+
+            
+        <hr>
+    
+        <table>
+          <thead>
+            <tr>
+              <th>Index</th>
+              <th>Website Name</th>
+              <th>Visit</th>
+              <th>Delete</th>
+            </tr>
+          </thead>
+          <tbody id="bookmarksTable">
+          </tbody>
+        </table>
+      </div>
+
+      
+      <div id="alertBox" class="alert hidden">
+        <div class="alert-header">
+          <span class="close-btn" onclick="closeAlert()">×</span>
+          <strong>Site Name or Url is not valid, Please follow the rules below :</strong>
+        </div>
+        <ul class="alert-rules">
+          <li>❌ Site name must contain at least 3 characters</li>
+          <li>❌ Site URL must be a valid one</li>
+        </ul>
+      </div>
+      
+
+    <script src="./java.js"></script>
+</body>
+</html>
